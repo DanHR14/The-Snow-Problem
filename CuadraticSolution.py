@@ -10,8 +10,7 @@ def snow_stored_cuadratic(walls):
         find_wall = False
         brick = 0
         for wall in walls:
-            value = wall
-            if value >= max_height:
+            if wall >= max_height:
                 find_wall = True
                 snow_stored += brick 
                 brick = 0
